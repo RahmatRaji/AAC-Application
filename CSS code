@@ -1,0 +1,197 @@
+<style type="text/css">
+        body {
+          background-color: #FFFFFF;
+        }
+        /* Initial styles */
+        .containerbox1 { 
+            background-color: #ffffff;
+            border-color: #666666;
+            border-style: solid;
+            border-width: 1px;
+            border-radius: 0px;
+        }
+        .content1 { 
+            overflow: hidden;
+        }
+        .dropdown1 { 
+            background-color: #ffffff;
+            border-color: #b9b9b9;
+            font-family: 'Open Sans', Arial, sans-serif;
+            font-size: 13px;
+            color: #282828;
+        }
+        .dropdown1 .ui-igcombo-field { 
+            font-size: 13px;
+            font-family: 'Open Sans', Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+        }
+        .label1 { 
+            font-family: 'Open Sans', Arial, sans-serif;
+            font-size: 13px;
+            color: #282828;
+            white-space: pre-wrap;
+            overflow-y: hidden;
+        }
+        .label2 { 
+            font-family: 'Open Sans', Arial, sans-serif;
+            font-size: 60px;
+            color: #282828;
+            white-space: pre-wrap;
+            overflow-y: hidden;
+        }
+        .label3 { 
+            font-family: 'Open Sans', Arial, sans-serif;
+            font-size: 13px;
+            color: #282828;
+            white-space: pre;
+        }
+        .textarea1 { 
+            background-color: #ffffff;
+            border-color: #d5d5d5;
+            font-family: 'Open Sans', Arial, sans-serif;
+            font-size: 13px;
+            color: #000000;
+        }
+        #containerbox1 { 
+            display: block;
+            left: 430px;
+            top: 238px;
+            width: 300px;
+            height: 350px;
+            position: absolute;
+        }
+        #containerbox1 > div { 
+            height: 350px;
+            width: 300px;
+        }
+        #containerbox2 { 
+            display: block;
+            left: 421px;
+            top: 626px;
+            width: 300px;
+            height: 350px;
+            position: absolute;
+        }
+        #containerbox2 > div { 
+            height: 350px;
+            width: 300px;
+        }
+        #containerbox3 { 
+            display: block;
+            left: 38px;
+            top: 235px;
+            width: 300px;
+            height: 350px;
+            position: absolute;
+        }
+        #containerbox3 > div { 
+            height: 350px;
+            width: 300px;
+        }
+        #containerbox4 { 
+            display: block;
+            left: 34px;
+            top: 630px;
+            width: 300px;
+            height: 350px;
+            position: absolute;
+        }
+        #containerbox4 > div { 
+            height: 350px;
+            width: 300px;
+        }
+        #content1 { 
+            height: 1004px;
+            width: 768px;
+            position: relative;
+        }
+        #dropdown1 { 
+            display: block;
+            left: 597px;
+            top: 14px;
+            width: 163px;
+            height: 45px;
+            position: absolute;
+        }
+        #image1 { 
+            display: block;
+            left: 76px;
+            top: 285px;
+            width: 196px;
+            height: 197px;
+            position: absolute;
+        }
+        #image2 { 
+            display: block;
+            left: 512px;
+            top: 259px;
+            width: 168px;
+            height: 234px;
+            position: absolute;
+        }
+        #image3 { 
+            display: block;
+            left: 496px;
+            top: 643px;
+            width: 184px;
+            height: 234px;
+            position: absolute;
+        }
+        #image4 { 
+            display: block;
+            left: 69px;
+            top: 665px;
+            width: 216px;
+            height: 199px;
+            position: absolute;
+        }
+        #item1 { 
+            display: block;
+        }
+        #item2 { 
+            display: block;
+        }
+        #label1 { 
+            display: block;
+            left: 79px;
+            top: 503px;
+            width: 237px;
+            height: 67px;
+            position: absolute;
+        }
+        #label2 { 
+            display: block;
+            left: 122px;
+            top: 893px;
+            width: 132px;
+            height: 83px;
+            position: absolute;
+        }
+        #label3 { 
+            display: block;
+            left: 500px;
+            top: 503px;
+            position: absolute;
+        }
+        #label4 { 
+            display: block;
+            left: 509px;
+            top: 888px;
+            position: absolute;
+        }
+        #textarea1 { 
+            display: block;
+            left: 10px;
+            top: 117px;
+            width: 744px;
+            height: 73px;
+            position: absolute;
+        }
+        /* Per state CSS */
+        /* State start */
+        .start #content1 { 
+            background-color: #d7edf2;
+        }
+    </style>
