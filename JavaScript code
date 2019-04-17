@@ -1,0 +1,31 @@
+<script type="text/javascript">
+      "use strict";
+
+      // Datasources
+      var datadropdown1 = [
+        {
+          "value": "item1",
+          "text": "Snacks"
+        },
+        {
+          "value": "item2",
+          "text": "Activities"
+        }
+      ];
+
+      $(document).ready(function () {
+          // Initialize controls
+          $("#dropdown1").igCombo({
+              dataSource: datadropdown1,
+          });
+          
+          // Go to first state
+          start();
+      });
+
+      // States
+      function start() {
+          // Overwrite Body class to Execute the interaction that takes to this new state
+          $("body")[0].className = "start";
+      }
+    </script>
